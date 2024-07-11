@@ -1,0 +1,92 @@
+@media screen and (max-width: 768px)
+/*tablet*/
+    {
+    section.grids1 {
+        grid-template-columns: 1fr;
+        grid-template-rows:
+            0.5fr 1fr 1fr 1fr;
+
+        grid-template-areas:
+            "tituloservicios"
+            "tarjeta1"
+            "tarjeta2"
+            "tarjeta3";
+    }
+}
+
+
+section.grids {
+    grid-template-columns: 1fr;
+    grid-template-rows:
+        40px 40px 1fr 1fr 0.75fr 0.75fr;
+
+    grid-template-areas:
+        "titulofondo"
+        "titulofondo2"
+        "logo1"
+        "logo2"
+        "logo3"
+        "logo4";
+}
+
+section.grids3 {
+    grid-template-columns: 1fr;
+    grid-template-rows:
+        0.5fr 0.5fr 1fr;
+
+    grid-template-areas:
+        "imagencontacto"
+        "whatsapp"
+        "ubicacion";
+}
+
+@media screen and (max-width: 500px)
+/*smartphone*/
+    {
+    .tituloservicios {
+        margin: 2px;
+        padding: 20px;
+    }
+
+    ul:li {
+        font-size: small;
+    }
+
+    section.grids1 {
+        grid-template-columns: 1fr;
+        grid-template-rows:
+            0.5fr 1fr 1fr 1fr;
+
+        grid-template-areas:
+            "tituloservicios"
+            "tarjeta1"
+            "tarjeta2"
+            "tarjeta3";
+    }
+}
+
+section.grids {
+    grid-template-columns: 1fr;
+    grid-template-rows:
+        40px 40px 1fr 1fr 0.75fr 0.75fr;
+
+    grid-template-areas:
+        "titulofondo"
+        "titulofondo2"
+        "logo1"
+        "logo2"
+        "logo3"
+        "logo4";
+
+}
+
+section.grids3 {
+    grid-template-columns: 1fr;
+    grid-template-rows:
+        0.5fr 0.5fr 1fr;
+
+    grid-template-areas:
+        "imagencontacto"
+        "whatsapp"
+        "ubicacion";
+}

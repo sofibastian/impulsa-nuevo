@@ -1,0 +1,29 @@
+main {
+    .grids1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows:
+            100px 500px;
+
+        grid-template-areas:
+            "tituloservicios tituloservicios tituloservicios"
+            "tarjeta1 tarjeta2 tarjeta3"
+    }
+
+    .tituloservicios {
+        grid-area: tituloservicios;
+        grid-column: 2/3;
+    }
+
+    .tarjeta1 {
+        grid-area: tarjeta1;
+    }
+
+    .tarjeta2 {
+        grid-area: tarjeta2;
+    }
+
+    .tarjeta3 {
+        grid-area: tarjeta3;
+    }
+}

@@ -1,0 +1,22 @@
+@import "./utilities/variables";
+@import "./utilities/extend";
+@import "./utilities/mixin";
+@import "./utilities/globales";
+@import "./components/header";
+@import "./pages/main-index";
+@import "./components/footer";
+@import "./utilities/media-queries";
+@import "./pages/main-contacto";
+@import "./pages/main-nosotros";
+@import "./pages/main-portfolio";
+@import "./pages/main-servicios";
+
+
+
+
+font-face {
+    font-family: "poppins-regular";
+    src: url("../poppins/Poppins-Regular.ttf");
+    font-family: "poppins-bold";
+    src: url("../poppins/Poppins-Bold.ttf");
+}

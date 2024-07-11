@@ -1,0 +1,18 @@
+/* Error: Undefined variable.
+ *   ,
+ * 3 |     font-family: $tipografia-texto;
+ *   |                  ^^^^^^^^^^^^^^^^^
+ *   '
+ *   scss\components\_footer.scss 3:18  @import
+ *   scss\styles.scss 7:9               root stylesheet */
+
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined variable.\a   \2577 \a 3 \2502      font-family: $tipografia-texto;\d\a   \2502                   ^^^^^^^^^^^^^^^^^\a   \2575 \a   scss\\components\\_footer.scss 3:18  @import\a   scss\\styles.scss 7:9               root stylesheet";
+}

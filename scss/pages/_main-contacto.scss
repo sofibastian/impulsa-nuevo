@@ -1,0 +1,34 @@
+main {
+    .grids3 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows:
+            100px 350px;
+
+        grid-template-areas:
+            "imagencontacto imagencontacto"
+            "whatsapp ubicacion"
+    }
+
+    .imagencontacto {
+        grid-area: imagencontacto;
+        margin: 10;
+        padding: 40;
+        box-sizing: content-box;
+        text-align: center;
+    }
+
+    .whatsapp {
+        grid-area: whatsapp;
+        font-size: medium;
+        background-color: rosa;
+        text-align: left;
+    }
+
+    .ubicacion {
+        grid-area: ubicacion;
+        font-size: medium;
+        background-color: rosa;
+        text-align: left;
+    }
+}
