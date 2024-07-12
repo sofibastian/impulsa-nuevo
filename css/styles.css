@@ -207,7 +207,7 @@ main .tituloservicios {
   grid-area: tituloservicios;
   grid-column: 2/3;
 }
-main div .tarjeta1 {
+main .tarjeta1 {
   grid-area: tarjeta1;
   background-image: linear-gradient top, #bbd6fb, #f6aaf2;
   padding: 10px;
