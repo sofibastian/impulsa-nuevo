@@ -15,7 +15,7 @@ main {
         grid-column: 2/3;
     }
 
-    div .tarjeta1 {
+    .tarjeta1 {
         grid-area: tarjeta1;
         background-image: linear-gradient (top, #bbd6fb, #f6aaf2);
     padding: 10px;
@@ -26,7 +26,7 @@ main {
     text-align: left;
     }
 
-   div .tarjeta2 {
+   .tarjeta2 {
         grid-area: tarjeta2;
         background-image: linear-gradient (top, #bbd6fb, #f6aaf2);
     padding: 10px;
