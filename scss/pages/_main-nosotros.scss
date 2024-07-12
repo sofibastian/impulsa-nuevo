@@ -1,5 +1,6 @@
 main {
-    h3 
+    .h1;
+    .h2;
     .grids4 {
         display: grid;
         grid-template-columns: 200px 200px;
@@ -13,8 +14,6 @@ main {
 
     .cami {
         grid-area: cami;
-        width: 75%;
-        height: 75%;
     }
 
     .sofi {
