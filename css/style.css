@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
   font-family: "poppins-regular";
   src: url("../poppins/Poppins-Regular.ttf");
 }
@@ -318,7 +318,7 @@ section.grids4 {
 
 @media screen and (max-width: 768px)
 /*tablet*/
-  {
+ /* {
   section.grids1 {
     grid-template-columns: 1fr;
     grid-template-rows:
@@ -360,7 +360,7 @@ section.grids3 {
 
 @media screen and (max-width: 500px)
 /*smartphone*/
-  {
+ /* {
   .tituloservicios {
     margin: 2px;
     padding: 20px;

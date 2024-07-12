@@ -1,3 +1,86 @@
+font-face {
+  font-family: "poppins-regular";
+  src: url("../poppins/Poppins-Regular.ttf");
+  font-family: "poppins-bold";
+  src: url("../poppins/Poppins-Bold.ttf");
+}
+
+@media screen and (max-width: 768px) {
+  section.grids1 {
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.5fr 1fr 1fr 1fr;
+    grid-template-areas: "tituloservicios" "tarjeta1" "tarjeta2" "tarjeta3";
+  }
+}
+section.grids {
+  grid-template-columns: 1fr;
+  grid-template-rows: 40px 40px 1fr 1fr 0.75fr 0.75fr;
+  grid-template-areas: "titulofondo" "titulofondo2" "logo1" "logo2" "logo3" "logo4";
+}
+
+section.grids3 {
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.5fr 0.5fr 1fr;
+  grid-template-areas: "imagencontacto" "whatsapp" "ubicacion";
+}
+
+@media screen and (max-width: 500px) {
+  .tituloservicios {
+    margin: 2px;
+    padding: 20px;
+  }
+  ul:li {
+    font-size: small;
+  }
+  section.grids1 {
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.5fr 1fr 1fr 1fr;
+    grid-template-areas: "tituloservicios" "tarjeta1" "tarjeta2" "tarjeta3";
+  }
+}
+section.grids {
+  grid-template-columns: 1fr;
+  grid-template-rows: 40px 40px 1fr 1fr 0.75fr 0.75fr;
+  grid-template-areas: "titulofondo" "titulofondo2" "logo1" "logo2" "logo3" "logo4";
+}
+
+section.grids3 {
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.5fr 0.5fr 1fr;
+  grid-template-areas: "imagencontacto" "whatsapp" "ubicacion";
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: content-box;
+}
+
+h1 {
+  color: rosa;
+  font-family: tipografia-titulos;
+  font-size: x-large;
+  text-align: center;
+}
+
+h2 {
+  font-family: tipografia-textos;
+  font-size: medium;
+}
+
+h3 {
+  font-family: tipografia-textos;
+  font-size: medium;
+}
+
+ul li a {
+  list-style: none display inline-block;
+  font-family: tipografia-textos;
+  font-size: smaller;
+  text-decoration: none;
+  list-style: none;
+}
+
 footer .rosa {
   font-family: "tipografia-textos";
   color: "rosa";
@@ -44,8 +127,8 @@ main .ubicacion {
 }
 
 main .tituloindex {
-  color: "$rosa";
-  font-family: "$tipografia-titulos";
+  color: "rosa";
+  font-family: "tipografia-titulos";
   font-size: x-large;
   text-align: center;
   margin: 10px;
@@ -128,89 +211,6 @@ main .tarjeta2 {
 }
 main .tarjeta3 {
   grid-area: tarjeta3;
-}
-
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: content-box;
-}
-
-h1 {
-  color: rosa;
-  font-family: tipografia-titulos;
-  font-size: x-large;
-  text-align: center;
-}
-
-h2 {
-  font-family: tipografia-textos;
-  font-size: medium;
-}
-
-h3 {
-  font-family: tipografia-textos;
-  font-size: medium;
-}
-
-ul li a {
-  list-style: none display inline-block;
-  font-family: tipografia-textos;
-  font-size: smaller;
-  text-decoration: none;
-  list-style: none;
-}
-
-@media screen and (max-width: 768px) {
-  section.grids1 {
-    grid-template-columns: 1fr;
-    grid-template-rows: 0.5fr 1fr 1fr 1fr;
-    grid-template-areas: "tituloservicios" "tarjeta1" "tarjeta2" "tarjeta3";
-  }
-}
-section.grids {
-  grid-template-columns: 1fr;
-  grid-template-rows: 40px 40px 1fr 1fr 0.75fr 0.75fr;
-  grid-template-areas: "titulofondo" "titulofondo2" "logo1" "logo2" "logo3" "logo4";
-}
-
-section.grids3 {
-  grid-template-columns: 1fr;
-  grid-template-rows: 0.5fr 0.5fr 1fr;
-  grid-template-areas: "imagencontacto" "whatsapp" "ubicacion";
-}
-
-@media screen and (max-width: 500px) {
-  .tituloservicios {
-    margin: 2px;
-    padding: 20px;
-  }
-  ul:li {
-    font-size: small;
-  }
-  section.grids1 {
-    grid-template-columns: 1fr;
-    grid-template-rows: 0.5fr 1fr 1fr 1fr;
-    grid-template-areas: "tituloservicios" "tarjeta1" "tarjeta2" "tarjeta3";
-  }
-}
-section.grids {
-  grid-template-columns: 1fr;
-  grid-template-rows: 40px 40px 1fr 1fr 0.75fr 0.75fr;
-  grid-template-areas: "titulofondo" "titulofondo2" "logo1" "logo2" "logo3" "logo4";
-}
-
-section.grids3 {
-  grid-template-columns: 1fr;
-  grid-template-rows: 0.5fr 0.5fr 1fr;
-  grid-template-areas: "imagencontacto" "whatsapp" "ubicacion";
-}
-
-font-face {
-  font-family: "poppins-regular";
-  src: url("../poppins/Poppins-Regular.ttf");
-  font-family: "poppins-bold";
-  src: url("../poppins/Poppins-Bold.ttf");
 }
 
 /*# sourceMappingURL=styles.css.map */
