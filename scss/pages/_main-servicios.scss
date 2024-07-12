@@ -1,7 +1,7 @@
 main {
     .grids1 {
         display: grid;
-        grid-template-columns: 200px 200px 200px;
+        grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows:
             100px 500px;
 
@@ -27,3 +27,44 @@ main {
         grid-area: tarjeta3;
     }
 }
+.tarjeta1 {
+    background-color: rgb(252, 222, 248);
+    padding: 10px;
+    margin: 20px;
+    width: 400px;
+    height: 300px;
+    box-sizing: content-box;
+    text-align: left;
+  }
+  
+  .tarjeta2 {
+    background-color: rgb(252, 222, 248);
+    padding: 10px;
+    margin: 20px;
+    width: 400px;
+    height: 300px;
+    box-sizing: content-box;
+    text-align: left;
+  }
+  
+  .tarjeta3 {
+    background-color: rgb(252, 222, 248);
+    padding: 10px;
+    margin: 20px;
+    width: 400px;
+    height: 300px;
+    box-sizing: content-box;
+    text-align: left;
+  }
+  
+  
+  
+  .tarjeta1,
+  .tarjeta2,
+  .tarjeta3 {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 10px;
+    padding: 20px;
+    box-sizing: content-box;
+  }
