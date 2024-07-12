@@ -1,9 +1,9 @@
 main {
     .grids4 {
         display: grid;
-        grid-template-columns: 200px 200px;
+        grid-template-columns: 1fr 1fr;
         grid-template-rows:
-            200px 200px;
+            400px 200px;
 
         grid-template-areas:
             "cami sofi"
@@ -20,6 +20,8 @@ main {
 
     .sobrenosotras {
         grid-area: sobrenosotras;
+        margin: 20;
+        padding: 20;
         font-family: tipografia-textos;
         color: rosa;
     }
