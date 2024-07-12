@@ -17,6 +17,13 @@ main {
 
     .tarjeta1 {
         grid-area: tarjeta1;
+        background-image: linear-gradient (top, #bbd6fb, #f6aaf2);
+    padding: 10px;
+    margin: 20px;
+    width: 400px;
+    height: 300px;
+    box-sizing: content-box;
+    text-align: left;
     }
 
     .tarjeta2 {
@@ -32,44 +39,13 @@ main {
 
     .tarjeta3 {
         grid-area: tarjeta3;
+        background-image: linear-gradient (top, #bbd6fb, #f6aaf2);
+    padding: 10px;
+    margin: 20px;
+    width: 400px;
+    height: 300px;
+    box-sizing: content-box;
+    text-align: left;
     }
 
-    
-
-
- 
-
-  .tarjeta2 {
-    background-image: linear-gradient (top, #bbd6fb, #f6aaf2);
-    padding: 10px;
-    margin: 20px;
-    width: 400px;
-    height: 300px;
-    box-sizing: content-box;
-    text-align: left;
-  }
-  
- 
-
-  .tarjeta3 {
-    background-image: linear-gradient (top, #bbd6fb, #f6aaf2);
-    padding: 10px;
-    margin: 20px;
-    width: 400px;
-    height: 300px;
-    box-sizing: content-box;
-    text-align: left;
-  }
-  
-  
-  
-  .tarjeta1,
-  .tarjeta2,
-  .tarjeta3 {
-    display: inline-block;
-    vertical-align: middle;
-    margin: 10px;
-    padding: 20px;
-    box-sizing: content-box;
-  }
-  }
+   }
