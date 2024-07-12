@@ -81,25 +81,6 @@ ul li a {
   list-style: none;
 }
 
-footer .rosa {
-  font-family: "tipografia-textos";
-  color: "rosa";
-  font-size: smaller;
-  text-align: center;
-  margin: 10px;
-  padding: 20px;
-  box-sizing: content-box;
-}
-
-header .navbar .logo {
-  vertical-align: middle;
-}
-header header nav,
-header li {
-  display: inline-block;
-  margin-right: 10px;
-}
-
 main .grids3 {
   display: grid;
   grid-template-columns: 1fr 1fr;
