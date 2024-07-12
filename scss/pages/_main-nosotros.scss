@@ -3,7 +3,7 @@ main {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows:
-            100px 100px;
+            200px 100px;
 
         grid-template-areas:
             "cami sofi"
@@ -21,4 +21,5 @@ main {
     .sobrenosotras {
         grid-area: sobrenosotras;
     }
+
 }
