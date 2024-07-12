@@ -27,7 +27,6 @@ main {
         grid-area: tarjeta3;
     }
 }
-div {
 
 .tarjeta1 {
     background-image: linear-gradient (top, #bbd6fb, #f6aaf2);
@@ -38,9 +37,9 @@ div {
     box-sizing: content-box;
     text-align: left;
   }
-}
+
  
-div {
+
   .tarjeta2 {
     background-image: linear-gradient (top, #bbd6fb, #f6aaf2);
     padding: 10px;
@@ -50,9 +49,9 @@ div {
     box-sizing: content-box;
     text-align: left;
   }
-  }
+  
  
-  div {
+
   .tarjeta3 {
     background-image: linear-gradient (top, #bbd6fb, #f6aaf2);
     padding: 10px;
@@ -62,7 +61,7 @@ div {
     box-sizing: content-box;
     text-align: left;
   }
-  }
+  
   
   
   .tarjeta1,
