@@ -197,4 +197,64 @@ main .grids img {
   text-align: center;
 }
 
+main .grids1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 100px 500px;
+  grid-template-areas: "tituloservicios tituloservicios tituloservicios" "tarjeta1 tarjeta2 tarjeta3";
+}
+main .tituloservicios {
+  grid-area: tituloservicios;
+  grid-column: 2/3;
+}
+main .tarjeta1 {
+  grid-area: tarjeta1;
+}
+main .tarjeta2 {
+  grid-area: tarjeta2;
+}
+main .tarjeta3 {
+  grid-area: tarjeta3;
+}
+
+div .tarjeta1 {
+  background-color: rgb(252, 222, 248);
+  padding: 10px;
+  margin: 20px;
+  width: 400px;
+  height: 300px;
+  box-sizing: content-box;
+  text-align: left;
+}
+
+div .tarjeta2 {
+  background-color: rgb(252, 222, 248);
+  padding: 10px;
+  margin: 20px;
+  width: 400px;
+  height: 300px;
+  box-sizing: content-box;
+  text-align: left;
+}
+
+div .tarjeta3 {
+  background-color: rgb(252, 222, 248);
+  padding: 10px;
+  margin: 20px;
+  width: 400px;
+  height: 300px;
+  box-sizing: content-box;
+  text-align: left;
+}
+
+.tarjeta1,
+.tarjeta2,
+.tarjeta3 {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 10px;
+  padding: 20px;
+  box-sizing: content-box;
+}
+
 /*# sourceMappingURL=styles.css.map */
