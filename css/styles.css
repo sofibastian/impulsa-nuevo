@@ -50,20 +50,6 @@ section.grids3 {
   grid-template-areas: "imagencontacto" "whatsapp" "ubicacion";
 }
 
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: content-box;
-}
-
-ul li a {
-  list-style: none display inline-block;
-  font-family: tipografia-textos;
-  font-size: smaller;
-  text-decoration: none;
-  list-style: none;
-}
-
 footer .rosa {
   font-family: "tipografia-textos";
   color: "rosa";
@@ -127,6 +113,24 @@ main div h2 .textoinicio {
   margin: 10px;
   padding: 20px;
   box-sizing: content-box;
+}
+
+main .grids4 {
+  display: grid;
+  grid-template-columns: 200px 200px;
+  grid-template-rows: 200px 200px;
+  grid-template-areas: "cami sofi" "sobrenosotras sobrenosotras";
+}
+main .grids4 .cami {
+  grid-area: cami;
+}
+main .grids4 .sofi {
+  grid-area: sofi;
+}
+main .grids4 .sobrenosotras {
+  grid-area: sobrenosotras;
+  font-family: tipografia-textos;
+  color: rosa;
 }
 
 main .grids {

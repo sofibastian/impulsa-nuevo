@@ -7,9 +7,10 @@ main {
 
         grid-template-areas:
             "cami sofi"
-            "sobrenosotras sobrenosotras";
-    
-.cami {
+            "sobrenosotras sobrenosotras"
+    }
+
+    .cami {
         grid-area: cami;
     }
 
@@ -22,8 +23,5 @@ main {
         font-family: tipografia-textos;
         color: rosa;
     }
-    }
-
-    
 
 }
