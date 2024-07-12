@@ -27,6 +27,8 @@ main {
         grid-area: tarjeta3;
     }
 }
+div {
+
 .tarjeta1 {
     background-color: rgb(252, 222, 248);
     padding: 10px;
@@ -36,7 +38,9 @@ main {
     box-sizing: content-box;
     text-align: left;
   }
-  
+}
+ 
+div {
   .tarjeta2 {
     background-color: rgb(252, 222, 248);
     padding: 10px;
@@ -46,7 +50,9 @@ main {
     box-sizing: content-box;
     text-align: left;
   }
-  
+  }
+ 
+  div {
   .tarjeta3 {
     background-color: rgb(252, 222, 248);
     padding: 10px;
@@ -55,6 +61,7 @@ main {
     height: 300px;
     box-sizing: content-box;
     text-align: left;
+  }
   }
   
   
