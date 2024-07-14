@@ -38,8 +38,8 @@ ul li a {
 }
 
 footer .rosa {
-  font-family: "tipografia-textos";
-  color: "rosa";
+  font-family: tipografia-textos;
+  color: rosa;
   font-size: smaller;
   text-align: center;
   margin: 10px;
@@ -82,14 +82,13 @@ main .ubicacion {
   text-align: left;
 }
 
-.textoinicio, .tituloindex {
+main .textoinicio, main .tituloindex {
   text-align: center;
   margin: 10px;
   padding: 30px;
   box-sizing: content-box;
 }
-
-.fotoinicio {
+main .fotoinicio {
   width: 100%;
   text-align: center;
 }
