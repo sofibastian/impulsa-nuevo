@@ -37,13 +37,6 @@ ul li a {
   list-style: none;
 }
 
-font-face {
-  font-family: "poppins-regular";
-  src: url("../poppins/Poppins-Regular.ttf");
-  font-family: "poppins-bold";
-  src: url("../poppins/Poppins-Bold.ttf");
-}
-
 footer .rosa {
   font-family: "tipografia-textos";
   color: "rosa";
@@ -87,6 +80,18 @@ main .ubicacion {
   font-size: medium;
   background-color: rosa;
   text-align: left;
+}
+
+.textoinicio, .tituloindex {
+  text-align: center;
+  margin: 10px;
+  padding: 30px;
+  box-sizing: content-box;
+}
+
+.fotoinicio {
+  width: 100%;
+  text-align: center;
 }
 
 main .grids4 {
