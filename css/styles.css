@@ -89,26 +89,6 @@ main .ubicacion {
   text-align: left;
 }
 
-main h1 .tituloindex {
-  color: rosa;
-  font-family: tipografia-titulos;
-  font-size: x-large;
-  text-align: center;
-  margin: 10px;
-  padding: 30px;
-  box-sizing: content-box;
-}
-main div .fotoinicio {
-  width: 100%;
-  text-align: center;
-}
-main div h2 .textoinicio {
-  text-align: center;
-  margin: 10px;
-  padding: 20px;
-  box-sizing: content-box;
-}
-
 main .grids4 {
   display: grid;
   grid-template-columns: 1fr 1fr;
