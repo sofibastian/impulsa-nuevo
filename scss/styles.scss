@@ -6,9 +6,9 @@ font-face {
 }
 
 @import "./utilities/variables";
+@import "./utilities/globales";
 @import "./utilities/mixin";
 @import "./utilities/extend";
-@import "./utilities/globales";
 @import "./components/footer";
 @import "./components/header";
 @import "./pages/main-contacto";
