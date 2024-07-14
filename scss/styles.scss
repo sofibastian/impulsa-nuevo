@@ -7,8 +7,6 @@ font-face {
 
 @import "./utilities/variables";
 @import "./utilities/globales";
-@import "./utilities/mixin";
-@import "./utilities/extend";
 @import "./components/footer";
 @import "./components/header";
 @import "./pages/main-contacto";
@@ -16,4 +14,6 @@ font-face {
 @import "./pages/main-nosotros";
 @import "./pages/main-portfolio";
 @import "./pages/main-servicios";
+@import "./utilities/mixin";
+@import "./utilities/extend";
 @import "./utilities/media-queries";
