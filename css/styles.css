@@ -37,6 +37,13 @@ ul li a {
   list-style: none;
 }
 
+font-face {
+  font-family: "poppins-regular";
+  src: url("../poppins/Poppins-Regular.ttf");
+  font-family: "poppins-bold";
+  src: url("../poppins/Poppins-Bold.ttf");
+}
+
 footer .rosa {
   font-family: "tipografia-textos";
   color: "rosa";
