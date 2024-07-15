@@ -8,6 +8,7 @@ main {
       600px
       1fr
       1fr;
+    grid-gap: 1rem;
 
 
     grid-template-areas:
@@ -52,7 +53,7 @@ main {
   }
 
   .grids img {
-    object-fit: contain;
+    object-fit: cover;
     justify-content:center;
     margin: 10;
   }
