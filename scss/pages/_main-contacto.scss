@@ -1,19 +1,22 @@
 main {
-    .grids3 {
+   section .grids3 {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows:
-            100px 350px;
+            300px
+            400px;
 
         grid-template-areas:
             "imagencontacto imagencontacto"
-            "whatsapp ubicacion"
+            "whatsapp ubicacion";
     }
 
-    .imagencontacto {
+   .imagencontacto {
         grid-area: imagencontacto;
         margin: 10;
         padding: 40;
+        width: 25%;
+        height: 25%;
         box-sizing: content-box;
         text-align: center;
     }
