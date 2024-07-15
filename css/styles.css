@@ -132,7 +132,7 @@ main p .sobrenosotras {
 main .grids {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 100px 100px 600px 400px 400px;
+  grid-template-rows: 100px 100px 600px 600px 600px;
   grid-template-areas: "tituloprincipal tituloprincipal" "titulofondo titulofondo2" "logo1 logo2" "logo3 logo3" "logo4 logo4";
 }
 main .tituloprincipal {
@@ -140,12 +140,21 @@ main .tituloprincipal {
   text-align: center;
   margin: 10;
   padding: 20;
+  box-sizing: content-box;
 }
 main .titulofondo {
   grid-area: titulofondo;
+  text-align: center;
+  margin: 10;
+  padding: 20;
+  box-sizing: content-box;
 }
 main .titulofondo2 {
   grid-area: titulofondo2;
+  text-align: center;
+  margin: 10;
+  padding: 20;
+  box-sizing: content-box;
 }
 main .imagen1 {
   grid-area: logo1;
