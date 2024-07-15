@@ -6,8 +6,8 @@ main {
    100px
    100px
    600px
-   400px
-   400px;
+   600px
+   600px;
 
 
     grid-template-areas:
@@ -22,14 +22,23 @@ main {
     text-align: center;
     margin: 10;
     padding: 20;
+    box-sizing: content-box;
   }
 
    .titulofondo {
     grid-area: titulofondo;
+    text-align: center;
+    margin: 10;
+    padding: 20;
+    box-sizing: content-box;
   }
   
   .titulofondo2 {
     grid-area: titulofondo2;
+    text-align: center;
+    margin: 10;
+    padding: 20;
+    box-sizing: content-box;
   }
   
    .imagen1 {
