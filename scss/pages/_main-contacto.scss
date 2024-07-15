@@ -11,7 +11,7 @@ main {
             "whatsapp ubicacion";
     }
 
-   .imagencontacto {
+  div .imagencontacto {
         grid-area: imagencontacto;
         margin: 10;
         padding: 40;
@@ -21,14 +21,14 @@ main {
         text-align: center;
     }
 
-    .whatsapp {
+   div .whatsapp {
         grid-area: whatsapp;
         font-size: medium;
         background-color: $rosa;
         text-align: left;
     }
 
-    .ubicacion {
+   div .ubicacion {
         grid-area: ubicacion;
         font-size: medium;
         background-color: $rosa;
