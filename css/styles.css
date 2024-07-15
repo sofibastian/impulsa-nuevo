@@ -159,12 +159,6 @@ main .imagen3 {
 main .imagen4 {
   grid-area: logo4;
 }
-main .grids img {
-  width: 50%;
-  height: 50%;
-  object-fit: contain;
-  text-align: center;
-}
 main .titulofondo:hover,
 main .titulofondo2:hover {
   color: lightslategray;
