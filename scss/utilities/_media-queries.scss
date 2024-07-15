@@ -52,9 +52,28 @@ section.grids3 {
 
 @media screen and (max-width: 500px)
 /*smartphone*/
+{
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .item1 {
+    order: 1;
+  }
+  .item2 {
+    order: 2;
+  }
+  .item3 {
+    order: 3;
+  }
+  .item4 {
+    order: 4;
+  }
+}
 
-
-    {
+    
     .tituloservicios {
         margin: 2px;
         padding: 20px;
@@ -75,7 +94,6 @@ section.grids3 {
             "tarjeta2"
             "tarjeta3";
     }
-}
 
 section.grids {
     grid-template-columns: 1fr;
