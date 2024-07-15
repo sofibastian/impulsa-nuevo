@@ -3,7 +3,11 @@ main {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows:
-    100px 100px 500px 500px 500px;
+    100px
+    100px
+    500px
+    500px
+    500px;
 
     grid-template-areas:
     "tituloprincipal"
