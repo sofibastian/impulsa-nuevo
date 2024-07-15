@@ -4,10 +4,10 @@ main {
     grid-template-columns: 1fr 1fr;
     grid-template-rows:
      50px
-     50px
+     100px
       600px
-      1fr
-      1fr;
+      600fr
+      600fr;
     grid-gap: 1rem;
 
 
