@@ -171,6 +171,12 @@ main .imagen4 {
   padding: 20;
   box-sizing: content-box;
 }
+main .grids img {
+  width: 50%;
+  height: 50%;
+  object-fit: contain;
+  text-align: center;
+}
 main .titulofondo:hover, main .titulofondo2:hover {
   color: lightslategray;
 }
