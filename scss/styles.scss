@@ -1,22 +1,19 @@
 font-face {
     font-family: "poppins-regular";
     src: url("../poppins/Poppins-Regular.ttf");
-    }
-
-font-face {
     font-family: "poppins-bold";
     src: url("../poppins/Poppins-Bold.ttf");
 }
 
 @import "./utilities/variables";
 @import "./utilities/globales";
+@import "./components/footer";
+@import "./components/header";
 @import "./pages/main-contacto";
 @import "./pages/main-index";
 @import "./pages/main-nosotros";
 @import "./pages/main-portfolio";
 @import "./pages/main-servicios";
-@import "./components/header";
-@import "./components/footer";
-@import "./utilities/mixin";
 @import "./utilities/extend";
+@import "./utilities/mixin";
 @import "./utilities/media-queries";
