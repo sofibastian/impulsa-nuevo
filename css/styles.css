@@ -20,7 +20,7 @@ h1 {
 h2 {
   font-family: "poppins-bold", sans-serif;
   font-size: medium;
-  color: hotpink;
+  color: rgb(226, 43, 110);
 }
 
 h3 {
@@ -35,15 +35,6 @@ ul li a {
   font-size: smaller;
   text-decoration: none;
   list-style: none;
-}
-
-header .navbar .logo {
-  vertical-align: middle;
-}
-header header nav,
-header li {
-  display: inline-block;
-  margin-right: 10px;
 }
 
 main section .grids3 {
@@ -64,13 +55,13 @@ main .imagencontacto {
 main .whatsapp {
   grid-area: whatsapp;
   font-size: medium;
-  background-color: rosa;
+  background-color: rgb(226, 43, 110);
   text-align: left;
 }
 main .ubicacion {
   grid-area: ubicacion;
   font-size: medium;
-  background-color: rosa;
+  background-color: rgb(226, 43, 110);
   text-align: left;
 }
 
@@ -101,8 +92,8 @@ main .sobrenosotras {
   grid-area: sobrenosotras;
   margin: 20;
   padding: 20;
-  font-family: tipografia-textos;
-  color: rosa;
+  font-family: "poppins-regular", sans-serif;
+  color: rgb(226, 43, 110);
 }
 
 main .grids {
@@ -163,6 +154,25 @@ main .tarjeta1, main .tarjeta2, main .tarjeta3 {
   height: 300px;
   box-sizing: content-box;
   text-align: left;
+}
+
+footer .rosa {
+  font-family: "poppins-regular", sans-serif;
+  color: rgb(226, 43, 110);
+  font-size: smaller;
+  text-align: center;
+  margin: 10px;
+  padding: 20px;
+  box-sizing: content-box;
+}
+
+header .navbar .logo {
+  vertical-align: middle;
+}
+header header nav,
+header li {
+  display: inline-block;
+  margin-right: 10px;
 }
 
 @media screen and (max-width: 768px) {
