@@ -3,7 +3,10 @@ main {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows:
-      20px 1fr 1.40fr 1.40fr;
+      20px
+      1fr
+      1fr
+      1fr;
 
     grid-template-areas:
       "titulofondo titulofondo2"
