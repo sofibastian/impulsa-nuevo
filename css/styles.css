@@ -129,6 +129,56 @@ main p .sobrenosotras {
   color: rgb(226, 43, 110);
 }
 
+main .grids {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 400px 400px 400px 400px;
+  grid-template-areas: "titulofondo titulofondo2" "logo1 logo2" "logo3 logo3" "logo4 logo4";
+}
+main .titulofondo {
+  grid-area: titulofondo;
+  margin: 20;
+  padding: 20;
+}
+main .titulofondo2 {
+  grid-area: titulofondo2;
+  margin: 20;
+  padding: 20;
+}
+main .imagen1 {
+  grid-area: logo1;
+  margin: 20;
+  padding: 20;
+  box-sizing: content-box;
+}
+main .imagen2 {
+  grid-area: logo2;
+  margin: 20;
+  padding: 20;
+  box-sizing: content-box;
+}
+main .imagen3 {
+  grid-area: logo3;
+  margin: 20;
+  padding: 20;
+  box-sizing: content-box;
+}
+main .imagen4 {
+  grid-area: logo4;
+  margin: 20;
+  padding: 20;
+  box-sizing: content-box;
+}
+main .imagen1, main .imagen2, main .imagen3 {
+  width: 25%;
+  height: 25%;
+  object-fit: contain;
+  text-align: center;
+}
+main .titulofondo:hover, main .titulofondo2:hover {
+  color: lightslategray;
+}
+
 main .grids1 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
