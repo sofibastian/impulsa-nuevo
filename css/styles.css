@@ -137,7 +137,7 @@ main .grids {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 50px 100px 600px 600fr 600fr;
   grid-gap: 1rem;
-  grid-template-areas: "tituloprincipal tituloprincipal" "titulofondo titulofondo2" "logo1 logo2" "logo3 logo3" "logo4 logo4";
+  grid-template-areas: "tituloprincipal . " "titulofondo titulofondo2" "logo1 logo2" "logo3 logo3" "logo4 logo4";
 }
 main .tituloprincipal {
   grid-area: tituloprincipal;
