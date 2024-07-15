@@ -56,34 +56,6 @@ header li {
   margin-right: 10px;
 }
 
-main .grids3 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 400px 400px;
-  grid-template-areas: "imagencontacto imagencontacto" "whatsapp ubicacion";
-}
-main .imagencontacto {
-  grid-area: imagencontacto;
-  margin: 10;
-  padding: 40;
-  width: 50%;
-  height: 50%;
-  box-sizing: content-box;
-  text-align: center;
-}
-main .whatsapp {
-  grid-area: whatsapp;
-  font-size: medium;
-  background-color: rosa;
-  text-align: left;
-}
-main .ubicacion {
-  grid-area: ubicacion;
-  font-size: medium;
-  background-color: rosa;
-  text-align: left;
-}
-
 main .textoinicio, main .tituloindex {
   text-align: center;
   margin: 10px;
