@@ -7,13 +7,13 @@ font-face {
 
 @import "./utilities/variables";
 @import "./utilities/globales";
-@import "./components/footer";
-@import "./components/header";
 @import "./pages/main-contacto";
 @import "./pages/main-index";
 @import "./pages/main-nosotros";
 @import "./pages/main-portfolio";
 @import "./pages/main-servicios";
+@import "./components/footer";
+@import "./components/header";
 @import "./utilities/mixin";
 @import "./utilities/extend";
 @import "./utilities/media-queries";

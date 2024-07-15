@@ -21,14 +21,14 @@ main {
     .whatsapp {
         grid-area: whatsapp;
         font-size: medium;
-        background-color: rosa;
+        background-color: $rosa;
         text-align: left;
     }
 
     .ubicacion {
         grid-area: ubicacion;
         font-size: medium;
-        background-color: rosa;
+        background-color: $rosa;
         text-align: left;
     }
 }
