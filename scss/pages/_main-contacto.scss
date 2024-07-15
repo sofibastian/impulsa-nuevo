@@ -3,7 +3,8 @@ main {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows:
-            100px 350px;
+            100px
+            400px;
 
         grid-template-areas:
             "imagencontacto imagencontacto"
