@@ -3,11 +3,11 @@ main {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows:
-   100px
-   100px
-   600px
-   600px
-   600px;
+   50px
+   50px
+  1fr
+  1fr
+  1fr;
 
 
     grid-template-areas:
@@ -17,8 +17,10 @@ main {
     "logo3 logo3"
     "logo4 logo4";
   }
+
   .tituloprincipal {
     grid-area: tituloprincipal;
+
    
   }
 
@@ -61,8 +63,8 @@ main {
   }
   
   .grids img {
-    width: 75%;
-    height: 75%;
+    width: 50%;
+    height: 50%;
     object-fit: contain;
     text-align: center;
   }
