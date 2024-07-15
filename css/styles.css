@@ -135,7 +135,7 @@ main p .sobrenosotras {
 main .grids {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 50px 50px 600px 1fr 1fr;
+  grid-template-rows: 50px 50px 0.5fr 1fr 1fr;
   grid-template-areas: "tituloprincipal.tituloprincipal" "titulofondo titulofondo2" "logo1 logo2" "logo3 logo3" "logo4 logo4";
 }
 main .tituloprincipal {
