@@ -5,7 +5,6 @@ font-face {
     src: url("../poppins/Poppins-Bold.ttf");
 }
 
-@import "./components/footer";
 @import "./utilities/variables";
 @import "./utilities/globales";
 @import "./pages/main-contacto";
@@ -14,6 +13,7 @@ font-face {
 @import "./pages/main-portfolio";
 @import "./pages/main-servicios";
 @import "./components/header";
+@import "./components/footer";
 @import "./utilities/mixin";
 @import "./utilities/extend";
 @import "./utilities/media-queries";
