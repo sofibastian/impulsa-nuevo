@@ -11,7 +11,7 @@
     .item4 {order:4;}
 }
 
-    section.grids1 {
+    .grids1 {
         grid-template-columns: 400px;
         grid-template-rows:
             0.5fr 1fr 1fr 1fr;
@@ -25,7 +25,7 @@
 
 
 
-section.grids {
+.grids {
     grid-template-columns: 400px;
     grid-template-rows:
         40px 40px 40px 1fr 1fr 0.75fr 0.75fr;
@@ -40,7 +40,7 @@ section.grids {
         "logo4";
 }
 
-section.grids3 {
+.grids3 {
     grid-template-columns: 400px;
     grid-template-rows:
         200px 500px 500px;
@@ -74,7 +74,7 @@ section.grids3 {
   }
 }
 
-section.grids1 {
+.grids1 {
     grid-template-columns: 400px;
     grid-template-rows:
         0.5fr 1fr 1fr 1fr;
@@ -88,7 +88,7 @@ section.grids1 {
 
 
 
-section.grids {
+.grids {
 grid-template-columns: 400px;
 grid-template-rows:
     40px 40px 40px 1fr 1fr 0.75fr 0.75fr;
@@ -103,7 +103,7 @@ grid-template-areas:
     "logo4";
 }
 
-section.grids3 {
+.grids3 {
 grid-template-columns: 400px;
 grid-template-rows:
     200px 500px 500px;
