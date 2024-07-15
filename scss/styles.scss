@@ -6,14 +6,13 @@ font-face {
 }
 
 @import "./utilities/variables";
-@import "./components/footer";
-@import "./components/header";
 @import "./pages/main-contacto";
 @import "./pages/main-index";
 @import "./pages/main-nosotros";
 @import "./pages/main-portfolio";
 @import "./pages/main-servicios";
-@import "./utilities/globales";
+@import "./components/footer";
+@import "./components/header";
 @import "./utilities/extend";
 @import "./utilities/mixin";
 @import "./utilities/media-queries";
