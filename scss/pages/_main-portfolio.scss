@@ -11,7 +11,7 @@ main {
 
 
     grid-template-areas:
-    "tituloprincipal tituloprincipal"
+    "tituloprincipal.tituloprincipal"
     "titulofondo titulofondo2"
     "logo1 logo2"
     "logo3 logo3"
@@ -19,25 +19,16 @@ main {
   }
   .tituloprincipal {
     grid-area: tituloprincipal;
-    text-align: center;
-    margin: 10;
-    padding: 20;
     box-sizing: content-box;
   }
 
    .titulofondo {
     grid-area: titulofondo;
-    text-align: center;
-    margin: 10;
-    padding: 20;
     box-sizing: content-box;
   }
   
   .titulofondo2 {
     grid-area: titulofondo2;
-    text-align: center;
-    margin: 10;
-    padding: 20;
     box-sizing: content-box;
   }
   
