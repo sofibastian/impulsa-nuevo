@@ -160,8 +160,6 @@ main .imagen4 {
   grid-area: logo4;
 }
 main .grids img {
-  width: 75%;
-  height: 75%;
   object-fit: contain;
   justify-content: center;
   margin: 10;
