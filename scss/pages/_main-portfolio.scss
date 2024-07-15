@@ -26,14 +26,10 @@ main {
 
    .titulofondo {
     grid-area: titulofondo;
-    margin: 20;
-    padding: 20;
   }
   
   .titulofondo2 {
     grid-area: titulofondo2;
-    margin: 20;
-    padding: 20;
   }
   
    .imagen1 {
@@ -64,12 +60,6 @@ main {
     box-sizing: content-box;
   }
   
-  .imagen1, .imagen2, .imagen3 {
-    width: 400px;
-    height: 400px;
-    object-fit: contain;
-    text-align: center;
-  }
   
   .titulofondo:hover, .titulofondo2:hover {
     color: lightslategray;

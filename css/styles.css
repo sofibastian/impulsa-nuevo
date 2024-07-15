@@ -143,13 +143,9 @@ main .tituloprincipal {
 }
 main .titulofondo {
   grid-area: titulofondo;
-  margin: 20;
-  padding: 20;
 }
 main .titulofondo2 {
   grid-area: titulofondo2;
-  margin: 20;
-  padding: 20;
 }
 main .imagen1 {
   grid-area: logo1;
@@ -174,12 +170,6 @@ main .imagen4 {
   margin: 20;
   padding: 20;
   box-sizing: content-box;
-}
-main .imagen1, main .imagen2, main .imagen3 {
-  width: 400px;
-  height: 400px;
-  object-fit: contain;
-  text-align: center;
 }
 main .titulofondo:hover, main .titulofondo2:hover {
   color: lightslategray;
