@@ -164,8 +164,8 @@ main .grids img {
   height: 75%;
   object-fit: contain;
   text-align: center;
-  margin: 20;
-  padding: 10;
+  margin: 5;
+  padding: 5;
 }
 main .titulofondo:hover,
 main .titulofondo2:hover {
