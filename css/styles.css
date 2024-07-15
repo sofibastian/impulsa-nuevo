@@ -132,13 +132,13 @@ main p .sobrenosotras {
 main .grids {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 200px 200px 500px 500px 500px;
+  grid-template-rows: 100px 100px 600px 400px 400px;
   grid-template-areas: "tituloprincipal tituloprincipal" "titulofondo titulofondo2" "logo1 logo2" "logo3 logo3" "logo4 logo4";
 }
 main .tituloprincipal {
   grid-area: tituloprincipal;
   text-align: center;
-  margin: 20;
+  margin: 10;
   padding: 20;
 }
 main .titulofondo {
