@@ -42,5 +42,8 @@ main {
     object-fit: contain;
     text-align: center;
   }
-
+  .titulofondo:hover, .titulofondo2:hover {
+    color: lightslategray;
+  }
+  
 }
