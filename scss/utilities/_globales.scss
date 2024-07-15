@@ -8,24 +8,34 @@ h1 {
     font-family: $tipografia-titulos;
     font-size: large;
     color: $rosa;
+    margin: 20;
+    padding: 20;
 }
 
 h2 {
     font-family: $tipografia-titulos;
     font-size: medium;
     color: $rosa;
+    margin: 20;
+    padding: 20;
 }
+
 
 h3 {
     font-family: $tipografia-textos;
     font-size: medium;
+    margin: 20;
+    padding: 20;
 }
 
 p {
     font-family: $tipografia-textos;
     font-size: small;
     text-align: center;
+    margin: 20;
+    padding: 20;
 }
+
 
 ul {
     li {
