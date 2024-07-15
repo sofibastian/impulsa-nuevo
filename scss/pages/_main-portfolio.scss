@@ -14,31 +14,47 @@ main {
   
    .titulofondo {
     grid-area: titulofondo;
+    margin: 20;
+    padding: 20;
   }
   
   .titulofondo2 {
     grid-area: titulofondo2;
+    margin: 20;
+    padding: 20;
   }
   
    .imagen1 {
     grid-area: logo1;
+    margin: 20;
+    padding: 20;
+    box-sizing: content-box;
   }
   
    .imagen2 {
     grid-area: logo2;
+    margin: 20;
+    padding: 20;
+    box-sizing: content-box;
   }
   
  .imagen3 {
     grid-area: logo3;
+    margin: 20;
+    padding: 20;
+    box-sizing: content-box;
   }
   
  .imagen4 {
     grid-area: logo4;
+    margin: 20;
+    padding: 20;
+    box-sizing: content-box;
   }
   
   .imagen1, .imagen2, .imagen3 {
-    width: 50%;
-    height: 50%;
+    width: 25%;
+    height: 25%;
     object-fit: contain;
     text-align: center;
   }
