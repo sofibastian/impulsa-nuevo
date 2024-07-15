@@ -176,8 +176,8 @@ main .imagen4 {
   box-sizing: content-box;
 }
 main .imagen1, main .imagen2, main .imagen3 {
-  width: 25%;
-  height: 25%;
+  width: 400px;
+  height: 400px;
   object-fit: contain;
   text-align: center;
 }
