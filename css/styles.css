@@ -140,15 +140,12 @@ main .grids {
 }
 main .tituloprincipal {
   grid-area: tituloprincipal;
-  box-sizing: content-box;
 }
 main .titulofondo {
   grid-area: titulofondo;
-  box-sizing: content-box;
 }
 main .titulofondo2 {
   grid-area: titulofondo2;
-  box-sizing: content-box;
 }
 main .imagen1 {
   grid-area: logo1;
