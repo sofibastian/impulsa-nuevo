@@ -133,7 +133,7 @@ main .grids {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 200px 200px 500px 500px 500px;
-  grid-template-areas: "tituloprincipal" "titulofondo titulofondo2" "logo1 logo2" "logo3 logo3" "logo4 logo4";
+  grid-template-areas: "tituloprincipal tituloprincipal" "titulofondo titulofondo2" "logo1 logo2" "logo3 logo3" "logo4 logo4";
 }
 main .tituloprincipal {
   grid-area: tituloprincipal;
