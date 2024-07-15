@@ -7,11 +7,11 @@ main {
             400px;
 
         grid-template-areas:
-            ". imagencontacto"
+            "imagencontacto imagencontacto"
             "whatsapp ubicacion";
     }
 
-   div .imagencontacto {
+   .imagencontacto {
         grid-area: imagencontacto;
         margin: 10;
         padding: 40;
@@ -21,14 +21,14 @@ main {
         text-align: center;
     }
 
-   div .whatsapp {
+    .whatsapp {
         grid-area: whatsapp;
         font-size: medium;
         background-color: rosa;
         text-align: left;
     }
 
-   div .ubicacion {
+    .ubicacion {
         grid-area: ubicacion;
         font-size: medium;
         background-color: rosa;
