@@ -2,8 +2,14 @@ main {
  .grids {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 400px 400px 400px 400px;
-    grid-template-areas: "titulofondo titulofondo2" "logo1 logo2" "logo3 logo3" "logo4 logo4";
+    grid-template-rows:
+    400px 400px 400px 400px;
+
+    grid-template-areas:
+    "titulofondo titulofondo2"
+    "logo1 logo2"
+    "logo3 logo3"
+    "logo4 logo4";
   }
   
    .titulofondo {
