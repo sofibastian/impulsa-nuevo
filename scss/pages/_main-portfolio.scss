@@ -2,7 +2,7 @@ main {
   section .grids {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 20px 1fr 1fr 1fr;
+    grid-template-rows: 0.5fr 0.5fr 1fr 1fr;
     grid-template-areas: "titulofondo titulofondo2" "logo1 logo2" "logo3 logo3" "logo4 logo4";
   }
   
