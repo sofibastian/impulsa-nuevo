@@ -1,6 +1,6 @@
 @media screen and (max-width: 768px)
 /*tablet*/
-{
+    {
 
     .grids1 {
         grid-template-columns: 1fr;
@@ -16,50 +16,49 @@
 
 
 
-.grids {
-    grid-template-columns: 1fr;
-    grid-template-rows:
-        40px 40px 40px 1fr 1fr 0.75fr 0.75fr;
+    .grids {
+        grid-template-columns: 1fr;
+        grid-template-rows:
+            40px 40px 40px 1fr 1fr 0.75fr 0.75fr;
 
-    grid-template-areas:
-    "tituloprincipal"
-        "titulofondo"
-        "titulofondo2"
-        "logo1"
-        "logo2"
-        "logo3"
-        "logo4";
-}
+        grid-template-areas:
+            "tituloprincipal"
+            "titulofondo"
+            "titulofondo2"
+            "logo1"
+            "logo2"
+            "logo3"
+            "logo4";
+    }
 
-.grids3 {
-    grid-template-columns: 1fr;
-    grid-template-rows:
-        200px 500px 500px;
+    .grids3 {
+        grid-template-columns: 1fr;
+        grid-template-rows:
+            200px 500px 500px;
 
-    grid-template-areas:
-        "imagencontacto"
-        "whatsapp"
-        "ubicacion";
-}
+        grid-template-areas:
+            "imagencontacto"
+            "whatsapp"
+            "ubicacion";
+    }
 }
 
 @media screen and (max-width: 500px) {
     .grids1 {
-      grid-template-columns: 1fr;
-      grid-template-rows: 0.5fr 1fr 1fr 1fr;
-      grid-template-areas: "tituloservicios" "tarjeta1" "tarjeta2" "tarjeta3";
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.5fr 1fr 1fr 1fr;
+        grid-template-areas: "tituloservicios" "tarjeta1" "tarjeta2" "tarjeta3";
     }
-  
+
     .grids {
-      grid-template-columns: 1fr;
-      grid-template-rows: 40px 40px 40px 1fr 1fr 0.75fr 0.75fr;
-      grid-template-areas: "tituloprincipal" "titulofondo" "titulofondo2" "logo1" "logo2" "logo3" "logo4";
+        grid-template-columns: 1fr;
+        grid-template-rows: 40px 40px 40px 1fr 1fr 0.75fr 0.75fr;
+        grid-template-areas: "tituloprincipal" "titulofondo" "titulofondo2" "logo1" "logo2" "logo3" "logo4";
     }
-  
+
     .grids3 {
-      grid-template-columns: 1fr;
-      grid-template-rows: 200px 500px 500px;
-      grid-template-areas: "imagencontacto" "whatsapp" "ubicacion";
+        grid-template-columns: 1fr;
+        grid-template-rows: 200px 500px 500px;
+        grid-template-areas: "imagencontacto" "whatsapp" "ubicacion";
     }
-  }
-  
+}

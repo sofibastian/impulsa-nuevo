@@ -3,11 +3,7 @@ main {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows:
-     50px
-     100px
-      600px
-      600fr
-      600fr;
+      50px 100px 600px 600fr 600fr;
     grid-gap: 1rem;
 
 
@@ -49,12 +45,12 @@ main {
 
   .imagen4 {
     grid-area: logo4;
-   
+
   }
 
   .grids img {
     object-fit: cover;
-    justify-content:center;
+    justify-content: center;
     margin: 10;
   }
 
