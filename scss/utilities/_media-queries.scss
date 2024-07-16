@@ -75,7 +75,7 @@
 }
 
 .grids1 {
-    grid-template-columns: 300px;
+    grid-template-columns: 1fr;
     grid-template-rows:
         0.5fr 1fr 1fr 1fr;
 
@@ -89,7 +89,7 @@
 
 
 .grids {
-grid-template-columns: 300px;
+grid-template-columns: 1fr;
 grid-template-rows:
     40px 40px 40px 1fr 1fr 0.75fr 0.75fr;
 
@@ -104,7 +104,7 @@ grid-template-areas:
 }
 
 .grids3 {
-grid-template-columns: 300px;
+grid-template-columns: 1fr;
 grid-template-rows:
     200px 500px 500px;
 
