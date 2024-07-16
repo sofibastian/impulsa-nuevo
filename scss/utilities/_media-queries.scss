@@ -9,7 +9,7 @@
     .item2 { order: 2; } 
     .item3 {order:3;} 
     .item4 {order:4;}
-}
+
 
     .grids1 {
         grid-template-columns: 400px;
@@ -112,4 +112,5 @@ grid-template-areas:
     "imagencontacto"
     "whatsapp"
     "ubicacion";
+}
 }
