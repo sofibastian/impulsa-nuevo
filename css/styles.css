@@ -1,10 +1,11 @@
-font-face {
+@font-face {
   font-family: "poppins-regular";
   src: url("../poppins/Poppins-Regular.ttf");
+}
+@font-face {
   font-family: "poppins-bold";
   src: url("../poppins/Poppins-Bold.ttf");
 }
-
 footer .rosa {
   font-family: "poppins-regular", sans-serif;
   color: rgb(226, 43, 110);
