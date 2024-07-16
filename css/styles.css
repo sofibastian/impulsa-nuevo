@@ -223,7 +223,7 @@ main .tarjeta3 {
 main .tarjeta1,
 main .tarjeta2,
 main .tarjeta3 {
-  background-image: linear-gradient to right, #bbd6fb, #f6aaf2;
+  background-image: linear-gradient(to right, #f4f8fe, #feecfd);
   padding: 10px;
   margin: 20px;
   width: 400px;
