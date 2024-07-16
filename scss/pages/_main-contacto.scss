@@ -1,5 +1,5 @@
-main {
-    section .grids3 {
+main{
+    section .grids3{
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows:
@@ -11,26 +11,26 @@ main {
     }
 
     .imagencontacto {
-        grid-area: imagencontacto;
-        margin: 10;
-        padding: 40;
-        width: 25%;
-        height: 25%;
-        box-sizing: content-box;
-        text-align: center;
+        grid-area:imagencontacto;
+        margin:10;
+        padding:40;
+        width:25%;
+        height:25%;
+        box-sizing:content-box;
+        text-align:center;
     }
 
     .whatsapp {
-        grid-area: whatsapp;
-        font-size: medium;
-        background-color: $rosa;
-        text-align: left;
+        grid-area:whatsapp;
+        font-size:medium;
+        background-color:$rosa;
+        text-align:left;
     }
 
     .ubicacion {
-        grid-area: ubicacion;
-        font-size: medium;
-        background-color: $rosa;
-        text-align: left;
+        grid-area:ubicacion;
+        font-size:medium;
+        background-color:$rosa;
+        text-align:left;
     }
 }
