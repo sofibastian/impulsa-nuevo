@@ -15,47 +15,6 @@ footer .rosa {
   box-sizing: content-box;
 }
 
-header .navbar .logo {
-  vertical-align: middle;
-}
-header header nav {
-  display: inline-block;
-  margin-right: 10px;
-}
-header ul {
-  display: none;
-}
-header ul li {
-  display: inline-block;
-  margin-right: 10px;
-}
-header input {
-  display: none;
-}
-header input:checked ~ ul {
-  display: block;
-}
-header label {
-  box-sizing: border-box;
-  display: inline-block;
-  border: 1px solid black;
-  border-radius: 5px;
-  width: 30px;
-  height: 30px;
-  line-height: 30px;
-  font-weight: bold;
-  text-align: center;
-  user-select: none;
-}
-header li {
-  display: block;
-  background: lightgrey;
-  margin: 0;
-  padding: 10px;
-  list-style: none;
-  border-bottom: 1px solid grey;
-}
-
 * {
   padding: 20;
   margin: 20;
