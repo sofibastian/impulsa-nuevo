@@ -1,3 +1,4 @@
+@charset "UTF-8";
 font-face {
   font-family: "poppins-regular";
   src: url("../poppins/Poppins-Regular.ttf");
@@ -13,6 +14,47 @@ footer .rosa {
   margin: 10px;
   padding: 20px;
   box-sizing: content-box;
+}
+
+header {
+  /* Estilo del boton cuando se pasa el mouse por encima*/
+  /* Estilo del boton cuando el menú está expandido*/
+}
+header .navbar .logo {
+  vertical-align: middle;
+  text-align: right;
+}
+header ul li {
+  display: none;
+}
+header input {
+  display: none;
+}
+header input:checked ~ ul {
+  display: block;
+}
+header label {
+  box-sizing: border-box;
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  font-weight: bold;
+  text-align: center;
+  user-select: none;
+}
+header label:hover {
+  background: grey;
+}
+header input:checked ~ label {
+  background: lightgrey;
+}
+header ul {
+  margin-top: 0;
+  padding: 0;
+  width: 200px;
 }
 
 * {
@@ -195,24 +237,6 @@ main .tarjeta1, main .tarjeta2, main .tarjeta3 {
 }
 
 @media screen and (max-width: 768px) {
-  .navbar {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-  }
-  .item1 {
-    order: 1;
-  }
-  .item2 {
-    order: 2;
-  }
-  .item3 {
-    order: 3;
-  }
-  .item4 {
-    order: 4;
-  }
   .grids1 {
     grid-template-columns: 1fr;
     grid-template-rows: 0.5fr 1fr 1fr 1fr;
@@ -230,24 +254,6 @@ main .tarjeta1, main .tarjeta2, main .tarjeta3 {
   }
 }
 @media screen and (max-width: 500px) {
-  .navbar {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-  }
-  .item1 {
-    order: 1;
-  }
-  .item2 {
-    order: 2;
-  }
-  .item3 {
-    order: 3;
-  }
-  .item4 {
-    order: 4;
-  }
   .grids1 {
     grid-template-columns: 1fr;
     grid-template-rows: 0.5fr 1fr 1fr 1fr;

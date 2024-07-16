@@ -6,18 +6,19 @@ header {
 
         }
     }
-    
-      ul{
+
+    ul li {
         display: none;
-      }
-      
-      input:checked  ~ ul{
-        display:block;
       }
       
       input {
+        &:checked ~ ul {
+          display: block;
+        }
+      
         display: none;
       }
+      
       
       label {
         box-sizing: border-box;
