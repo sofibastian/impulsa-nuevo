@@ -194,6 +194,7 @@ main .grids img {
   object-fit: cover;
   justify-content: center;
   margin: 10;
+  size: 75%;
 }
 main .titulofondo:hover,
 main .titulofondo2:hover {
