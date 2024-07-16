@@ -7,13 +7,13 @@ header {
     }
 
     header nav {
-        display: inline-block;
+      
         margin-right: 10px;
       }
       
       ul {
         li {
-          display: inline-block;
+
           margin-right: 10px;
         }
       
@@ -44,11 +44,11 @@ header {
 
       li {
         display: block;
-        background: lightgrey;
+        background: pink;
         margin: 0;
         padding: 10px;
         list-style: none;
-        border-bottom: 1px solid grey;
+        border-bottom: 1px solid violet;
       }
     } 
 
