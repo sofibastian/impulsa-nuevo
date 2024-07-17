@@ -240,6 +240,9 @@ main .tarjeta3 {
 }
 
 @media screen and (max-width: 768px) {
+  .fotoinicio {
+    size: 25%;
+  }
   .grids1 {
     grid-template-columns: 1fr;
     grid-template-rows: 0.5fr 1fr 1fr 1fr;
@@ -258,6 +261,7 @@ main .tarjeta3 {
 }
 @media screen and (max-width: 500px) {
   .grids1 {
+    width: 400px;
     grid-template-columns: 1fr;
     grid-template-rows: 0.5fr 1fr 1fr 1fr;
     grid-template-areas: "tituloservicios" "tarjeta1" "tarjeta2" "tarjeta3";
