@@ -1,13 +1,13 @@
 main {
-    .grids1 {
+    section.grids1 {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-columns: repeat (auto-fit, minmax(15rem, 1fr));
-    }
+        grid-template-rows: 1fr 3fr;
 
-    .tituloservicios {
-        grid-area: tituloservicios;
-        grid-column: 2/3;
+
+        grid-template-areas:
+            "tituloservicios tituloservicios tituloservicios"
+            "tarjeta1 tarjeta2 tarjeta3";
     }
 
     .tarjeta1 {

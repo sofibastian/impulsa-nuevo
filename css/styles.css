@@ -12,6 +12,57 @@
   box-sizing: content-box;
 }
 
+@media screen and (max-width: 768px) {
+  div.fotoinicio {
+    height: 50%;
+    width: 50%;
+  }
+  section.grids1 {
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.5fr 1fr 1fr 1fr;
+    grid-template-areas: "tituloservicios" "tarjeta1" "tarjeta2" "tarjeta3";
+  }
+  section.grids {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 3fr 3fr 2fr 2fr;
+    grid-template-areas: "tituloprincipal" "titulofondo" "titulofondo2" "logo1" "logo2" "logo3" "logo4";
+  }
+  section.grids .grids img {
+    height: 50%;
+    width: 50%;
+  }
+  section.grids3 {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 2fr 2fr;
+    grid-template-areas: "imagencontacto" "whatsapp" "ubicacion";
+  }
+}
+@media screen and (max-width: 500px) {
+  div.fotoinicio {
+    height: 100px;
+    width: 200px;
+  }
+  section.grids1 {
+    width: 400px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.5fr 1fr 1fr 1fr;
+    grid-template-areas: "tituloservicios" "tarjeta1" "tarjeta2" "tarjeta3";
+  }
+  section.grids {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 3fr 3fr 2fr 2fr;
+    grid-template-areas: "tituloprincipal" "titulofondo" "titulofondo2" "logo1" "logo2" "logo3" "logo4";
+  }
+  section.grids img {
+    height: 200px;
+    width: 200px;
+  }
+  section.grids3 {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 2fr 2fr;
+    grid-template-areas: "imagencontacto" "whatsapp" "ubicacion";
+  }
+}
 footer .rosa {
   font-family: "poppins-regular", sans-serif;
   color: rgb(226, 43, 110);
@@ -103,7 +154,7 @@ ul li a {
   list-style: none;
 }
 
-main section .grids3 {
+main section.grids3 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 2fr;
@@ -144,7 +195,7 @@ main .fotoinicio {
   text-align: center;
 }
 
-main .grids4 {
+main section.grids4 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 2fr 1fr;
@@ -164,7 +215,7 @@ main p .sobrenosotras {
   color: rgb(226, 43, 110);
 }
 
-main .grids {
+main section.grids {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 2fr 3fr 3fr 3fr;
@@ -196,22 +247,19 @@ main .grids img {
   object-fit: cover;
   justify-content: center;
   margin: 10px;
-  height: 75%;
-  width: 75%;
+  height: 100%;
+  width: 100%;
 }
 main .titulofondo:hover,
 main .titulofondo2:hover {
   color: lightslategray;
 }
 
-main .grids1 {
+main section.grids1 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-columns: repeat auto-fit, minmax(15rem, 1fr);
-}
-main .tituloservicios {
-  grid-area: tituloservicios;
-  grid-column: 2/3;
+  grid-template-rows: 1fr 3fr;
+  grid-template-areas: "tituloservicios tituloservicios tituloservicios" "tarjeta1 tarjeta2 tarjeta3";
 }
 main .tarjeta1 {
   grid-area: tarjeta1;
