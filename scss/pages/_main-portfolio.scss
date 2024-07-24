@@ -51,8 +51,9 @@ main {
   .grids img {
     object-fit: cover;
     justify-content: center;
-    margin: 10;
-    size: 75%;
+    margin: 10px;
+    height: 75%;
+    width: 75%;
   }
 
   .titulofondo:hover,

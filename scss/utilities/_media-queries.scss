@@ -1,6 +1,7 @@
 @media screen and (max-width: 768px) {
     .fotoinicio {
-     size: 25%;
+     height: 50%;
+     width: 50%;
     }
 
     .grids1 {
@@ -20,7 +21,7 @@
     .grids {
         grid-template-columns: 1fr;
         grid-template-rows:
-            40px 40px 40px 1fr 1fr 0.75fr 0.75fr;
+        1fr 1fr 1fr 3fr 3fr 2fr 2fr;
 
         grid-template-areas:
             "tituloprincipal"
@@ -35,7 +36,8 @@
     .grids3 {
         grid-template-columns: 1fr;
         grid-template-rows:
-            200px 500px 500px;
+        1fr 2fr 2fr;
+    
 
         grid-template-areas:
             "imagencontacto"
@@ -54,13 +56,13 @@
 
     .grids {
         grid-template-columns: 1fr;
-        grid-template-rows: 40px 40px 40px 1fr 1fr 0.75fr 0.75fr;
+        grid-template-rows: 1fr 1fr 1fr 3fr 3fr 2fr 2fr;
         grid-template-areas: "tituloprincipal" "titulofondo" "titulofondo2" "logo1" "logo2" "logo3" "logo4";
     }
 
     .grids3 {
         grid-template-columns: 1fr;
-        grid-template-rows: 200px 500px 500px;
+        grid-template-rows: 1fr 2fr 2fr;
         grid-template-areas: "imagencontacto" "whatsapp" "ubicacion";
     }
 }

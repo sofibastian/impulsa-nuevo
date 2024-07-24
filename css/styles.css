@@ -55,8 +55,8 @@ header ul {
 }
 
 * {
-  padding: 20;
-  margin: 20;
+  padding: 0;
+  margin: 0;
   box-sizing: content-box;
 }
 
@@ -64,8 +64,8 @@ h1 {
   font-family: "poppins-bold", sans-serif;
   font-size: large;
   color: rgb(226, 43, 110);
-  margin: 20;
-  padding: 20;
+  margin: 20px;
+  padding: 20px;
   text-align: center;
 }
 
@@ -73,16 +73,16 @@ h2 {
   font-family: "poppins-bold", sans-serif;
   font-size: medium;
   color: violet;
-  margin: 20;
-  padding: 20;
+  margin: 20px;
+  padding: 20px;
   text-align: center;
 }
 
 h3 {
   font-family: "poppins-regular", sans-serif;
   font-size: medium;
-  margin: 20;
-  padding: 20;
+  margin: 20px;
+  padding: 20px;
   text-align: center;
 }
 
@@ -90,8 +90,8 @@ p {
   font-family: "poppins-regular", sans-serif;
   font-size: small;
   text-align: left;
-  margin: 20;
-  padding: 20;
+  margin: 20px;
+  padding: 20px;
 }
 
 ul li a {
@@ -111,8 +111,8 @@ main section .grids3 {
 }
 main .imagencontacto {
   grid-area: imagencontacto;
-  margin: 10;
-  padding: 40;
+  margin: 10px;
+  padding: 40px;
   width: 25%;
   height: 25%;
   box-sizing: content-box;
@@ -140,6 +140,7 @@ main .tituloindex {
 }
 main .fotoinicio {
   width: 100%;
+  height: 100%;
   text-align: center;
 }
 
@@ -157,8 +158,8 @@ main .sofi {
 }
 main p .sobrenosotras {
   grid-area: sobrenosotras;
-  margin: 20;
-  padding: 20;
+  margin: 20px;
+  padding: 20px;
   font-family: "poppins-regular", sans-serif;
   color: rgb(226, 43, 110);
 }
@@ -194,8 +195,9 @@ main .imagen4 {
 main .grids img {
   object-fit: cover;
   justify-content: center;
-  margin: 10;
-  size: 75%;
+  margin: 10px;
+  height: 75%;
+  width: 75%;
 }
 main .titulofondo:hover,
 main .titulofondo2:hover {
@@ -241,7 +243,8 @@ main .tarjeta3 {
 
 @media screen and (max-width: 768px) {
   .fotoinicio {
-    size: 25%;
+    height: 50%;
+    width: 50%;
   }
   .grids1 {
     grid-template-columns: 1fr;
@@ -250,12 +253,12 @@ main .tarjeta3 {
   }
   .grids {
     grid-template-columns: 1fr;
-    grid-template-rows: 40px 40px 40px 1fr 1fr 0.75fr 0.75fr;
+    grid-template-rows: 1fr 1fr 1fr 3fr 3fr 2fr 2fr;
     grid-template-areas: "tituloprincipal" "titulofondo" "titulofondo2" "logo1" "logo2" "logo3" "logo4";
   }
   .grids3 {
     grid-template-columns: 1fr;
-    grid-template-rows: 200px 500px 500px;
+    grid-template-rows: 1fr 2fr 2fr;
     grid-template-areas: "imagencontacto" "whatsapp" "ubicacion";
   }
 }
@@ -268,12 +271,12 @@ main .tarjeta3 {
   }
   .grids {
     grid-template-columns: 1fr;
-    grid-template-rows: 40px 40px 40px 1fr 1fr 0.75fr 0.75fr;
+    grid-template-rows: 1fr 1fr 1fr 3fr 3fr 2fr 2fr;
     grid-template-areas: "tituloprincipal" "titulofondo" "titulofondo2" "logo1" "logo2" "logo3" "logo4";
   }
   .grids3 {
     grid-template-columns: 1fr;
-    grid-template-rows: 200px 500px 500px;
+    grid-template-rows: 1fr 2fr 2fr;
     grid-template-areas: "imagencontacto" "whatsapp" "ubicacion";
   }
 }
