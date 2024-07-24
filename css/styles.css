@@ -198,7 +198,7 @@ main .fotoinicio {
 main section.grids4 {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 2fr 1fr;
+  grid-template-rows: 2fr 0.5fr;
   grid-template-areas: "cami sofi" "sobrenosotras sobrenosotras";
 }
 main .cami {
@@ -245,8 +245,8 @@ main img {
   object-fit: cover;
   justify-content: center;
   margin: 10px;
-  height: 75%;
-  width: 75%;
+  height: 100%;
+  width: 100%;
 }
 main .titulofondo:hover,
 main .titulofondo2:hover {
