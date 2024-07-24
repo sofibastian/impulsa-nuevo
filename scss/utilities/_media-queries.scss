@@ -58,6 +58,10 @@
       grid-template-columns: 1fr;
       grid-template-rows: 1fr 2fr 2fr;
       grid-template-areas: "imagencontacto" "whatsapp" "ubicacion";
+
+     .imagencontacto 
+     {height: 100px;
+    width: 200px;}
     }
   }
 
