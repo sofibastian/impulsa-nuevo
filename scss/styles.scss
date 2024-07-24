@@ -8,6 +8,12 @@
     src: url("../poppins/Poppins-Bold.ttf");
 }
 
+* {
+    padding:0;
+    margin:0;
+    box-sizing:content-box;
+}
+
 @import "./utilities/variables";
 @import "./components/footer";
 @import "./components/header";
