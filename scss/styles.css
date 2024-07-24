@@ -268,8 +268,8 @@ main .tarjeta3 {
 }
 @media screen and (max-width: 500px) {
   .fotoinicio {
-    height: 25%;
-    width: 25%;
+    height: 200px;
+    width: 300px;
   }
   .grids1 {
     width: 400px;
@@ -283,8 +283,8 @@ main .tarjeta3 {
     grid-template-areas: "tituloprincipal" "titulofondo" "titulofondo2" "logo1" "logo2" "logo3" "logo4";
   }
   .grids img {
-    height: 50%;
-    width: 50%;
+    height: 200px;
+    width: 200px;
   }
   .grids3 {
     grid-template-columns: 1fr;
