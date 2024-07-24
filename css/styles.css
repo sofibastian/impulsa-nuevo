@@ -12,7 +12,7 @@
   box-sizing: content-box;
 }
 
-@media screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   div.fotoinicio {
     height: 50%;
     width: 50%;
@@ -37,7 +37,7 @@
     grid-template-areas: "imagencontacto" "whatsapp" "ubicacion";
   }
 }
-@media screen and (max-width: 500px) {
+@media only screen and (max-width: 500px) {
   div.fotoinicio {
     height: 100px;
     width: 200px;
