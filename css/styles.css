@@ -268,8 +268,8 @@ main .tarjeta3 {
 }
 @media screen and (max-width: 500px) {
   .fotoinicio {
-    height: 200px;
-    width: 300px;
+    height: 100px;
+    width: 200px;
   }
   .grids1 {
     width: 400px;
