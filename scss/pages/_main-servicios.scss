@@ -2,7 +2,7 @@ main {
     .grids1 {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 100px 500px;
+        grid-template-rows: 1fr 2fr;
 
         grid-template-areas:
             "tituloservicios tituloservicios tituloservicios"
@@ -32,8 +32,8 @@ main {
         background-image:linear-gradient(to right, #f4f8fe, #feecfd);
         padding: 10px;
         margin: 20px;
-        width: 400px;
-        height: 300px;
+        width: 300px;
+        height: 200px;
         box-sizing: content-box;
         text-align: left;
     }

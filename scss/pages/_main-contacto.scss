@@ -3,7 +3,7 @@ main{
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows:
-            300px 400px;
+            1fr 2fr;
 
         grid-template-areas:
             "imagencontacto imagencontacto"
