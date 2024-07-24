@@ -256,7 +256,7 @@ main .titulofondo2:hover {
 main section.grids1 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 2fr 3fr;
+  grid-template-rows: 0.5fr 3fr;
   grid-template-areas: "tituloservicios tituloservicios tituloservicios" "tarjeta1 tarjeta2 tarjeta3";
 }
 main .tarjeta1 {
