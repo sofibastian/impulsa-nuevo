@@ -1,9 +1,9 @@
 main {
-  section.grids{
+  section.grids {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows:
-    0.25fr 0.25fr 2fr 2fr 2fr;
+      0.25fr 0.25fr 2fr 2fr 2fr;
     grid-gap: 0.5rem;
 
 
@@ -51,9 +51,9 @@ main {
   img {
     object-fit: cover;
     justify-content: center;
-    margin:10px;
-    height:75%;
-    width:75%;
+    margin: 10px;
+    height: 75%;
+    width: 75%;
   }
 
   .titulofondo:hover,

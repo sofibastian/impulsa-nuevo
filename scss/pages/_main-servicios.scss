@@ -1,5 +1,5 @@
 main {
-    section.grids1{
+    section.grids1 {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 0.5fr 3fr;
@@ -25,7 +25,7 @@ main {
     .tarjeta1,
     .tarjeta2,
     .tarjeta3 {
-        background-image:linear-gradient(to right, #f4f8fe, #feecfd);
+        background-image: linear-gradient(to right, #f4f8fe, #feecfd);
         padding: 10px;
         margin: 20px;
         width: 400px;

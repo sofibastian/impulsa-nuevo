@@ -207,7 +207,7 @@ main .cami {
 main .sofi {
   grid-area: sofi;
 }
-main p .sobrenosotras {
+main .sobrenosotras {
   grid-area: sobrenosotras;
   font-family: "poppins-regular", sans-serif;
   color: rgb(226, 43, 110);
