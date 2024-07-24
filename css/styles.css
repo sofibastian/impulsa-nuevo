@@ -206,9 +206,8 @@ main .titulofondo2:hover {
 
 main .grids1 {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: repeat auto-fit, minmax(15rem, 1fr);
-  grid-template-areas: "tituloservicios tituloservicios tituloservicios" "tarjeta1 tarjeta2 tarjeta3";
+  grid-auto-rows: 22rem;
+  grid-template-columns: repeat auto-fit, minmax(15rem, 1fr);
 }
 main .tituloservicios {
   grid-area: tituloservicios;
