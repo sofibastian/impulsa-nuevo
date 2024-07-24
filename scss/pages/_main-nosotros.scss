@@ -4,6 +4,7 @@ main {
         grid-template-columns: 1fr 1fr;
         grid-template-rows:
             2fr 0.5fr;
+        grid-gap: 0.5rem;
 
         grid-template-areas:
             "cami sofi"

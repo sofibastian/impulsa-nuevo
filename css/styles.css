@@ -199,6 +199,7 @@ main section.grids4 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 2fr 0.5fr;
+  grid-gap: 0.5rem;
   grid-template-areas: "cami sofi" "sobrenosotras sobrenosotras";
 }
 main .cami {
@@ -207,7 +208,7 @@ main .cami {
 main .sofi {
   grid-area: sofi;
 }
-main .sobrenosotras {
+main p .sobrenosotras {
   grid-area: sobrenosotras;
   font-family: "poppins-regular", sans-serif;
   color: rgb(226, 43, 110);
@@ -245,8 +246,8 @@ main img {
   object-fit: cover;
   justify-content: center;
   margin: 10px;
-  height: 100%;
-  width: 100%;
+  height: 80%;
+  width: 80%;
 }
 main .titulofondo:hover,
 main .titulofondo2:hover {
