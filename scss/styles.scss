@@ -13,7 +13,7 @@
     margin:0;
     box-sizing:content-box;
 }
-
+@import "./utilities/media-queries";
 @import "./utilities/variables";
 @import "./components/footer";
 @import "./components/header";
@@ -26,4 +26,3 @@
 @import "./utilities/extend";
 @import "./utilities/mixin";
 @import "./utilities/mixin";
-@import "./utilities/media-queries";
