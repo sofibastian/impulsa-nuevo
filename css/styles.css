@@ -62,10 +62,6 @@
     grid-template-rows: 1fr 2fr 2fr;
     grid-template-areas: "imagencontacto" "whatsapp" "ubicacion";
   }
-  section.grids3 .imagencontacto {
-    height: 100px;
-    width: 200px;
-  }
 }
 footer .rosa {
   font-family: "poppins-regular", sans-serif;
@@ -168,8 +164,8 @@ main .imagencontacto {
   grid-area: imagencontacto;
   margin: 10px;
   padding: 40px;
-  width: 25%;
-  height: 25%;
+  width: 75%;
+  height: 75%;
   box-sizing: content-box;
   text-align: center;
 }
@@ -213,8 +209,6 @@ main .sofi {
 }
 main p .sobrenosotras {
   grid-area: sobrenosotras;
-  margin: 20px;
-  padding: 20px;
   font-family: "poppins-regular", sans-serif;
   color: rgb(226, 43, 110);
 }
