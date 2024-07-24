@@ -65,7 +65,7 @@
         grid-template-areas: "tituloservicios" "tarjeta1" "tarjeta2" "tarjeta3";
     }
 
-    .grids {
+   main .grids {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr 3fr 3fr 2fr 2fr;
         grid-template-areas: "tituloprincipal" "titulofondo" "titulofondo2" "logo1" "logo2" "logo3" "logo4";
