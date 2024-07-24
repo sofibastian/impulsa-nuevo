@@ -216,7 +216,7 @@ main p .sobrenosotras {
 main section.grids {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 5fr 0.5fr 2fr 2fr 2fr;
+  grid-template-rows: 0.5fr 0.5fr 2fr 2fr 2fr;
   grid-gap: 1rem;
   grid-template-areas: "tituloprincipal . " "titulofondo titulofondo2" "logo1 logo2" "logo3 logo3" "logo4 logo4";
 }
@@ -256,7 +256,7 @@ main .titulofondo2:hover {
 main section.grids1 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 3fr;
+  grid-template-rows: 2fr 3fr;
   grid-template-areas: "tituloservicios tituloservicios tituloservicios" "tarjeta1 tarjeta2 tarjeta3";
 }
 main .tarjeta1 {
