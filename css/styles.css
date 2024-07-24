@@ -106,7 +106,7 @@ ul li a {
 main section .grids3 {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 300px 400px;
+  grid-template-rows: 1fr 2fr;
   grid-template-areas: "imagencontacto imagencontacto" "whatsapp ubicacion";
 }
 main .imagencontacto {
@@ -147,7 +147,7 @@ main .fotoinicio {
 main .grids4 {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 600px 200px;
+  grid-template-rows: 2fr 1fr;
   grid-template-areas: "cami sofi" "sobrenosotras sobrenosotras";
 }
 main .cami {
@@ -167,7 +167,7 @@ main p .sobrenosotras {
 main .grids {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 50px 100px 600px 600fr 600fr;
+  grid-template-rows: 1fr 2fr 3fr 3fr 3fr;
   grid-gap: 1rem;
   grid-template-areas: "tituloprincipal . " "titulofondo titulofondo2" "logo1 logo2" "logo3 logo3" "logo4 logo4";
 }
