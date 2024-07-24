@@ -217,7 +217,7 @@ main section.grids {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 0.25fr 0.5fr 2fr 2fr 2fr;
-  grid-gap: 1rem;
+  grid-gap: 0.5rem;
   grid-template-areas: "tituloprincipal . " "titulofondo titulofondo2" "logo1 logo2" "logo3 logo3" "logo4 logo4";
 }
 main .tituloprincipal {
@@ -275,7 +275,7 @@ main .tarjeta3 {
   padding: 10px;
   margin: 20px;
   width: 300px;
-  height: 400px;
+  height: 500px;
   box-sizing: content-box;
   text-align: left;
 }

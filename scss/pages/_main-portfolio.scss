@@ -1,10 +1,10 @@
 main {
-  section.grids {
+  section.grids{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows:
     0.25fr 0.5fr 2fr 2fr 2fr;
-    grid-gap: 1rem;
+    grid-gap: 0.5rem;
 
 
     grid-template-areas:
