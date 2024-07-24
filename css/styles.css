@@ -51,9 +51,11 @@
   section.grids {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 3fr 3fr 2fr 2fr;
-    grid-template-areas: "tituloprincipal" "titulofondo" "titulofondo2" "logo1" "logo2" "logo3" "logo4" img;
-    grid-template-areas-height: 200px;
-    grid-template-areas-width: 200px;
+    grid-template-areas: "tituloprincipal" "titulofondo" "titulofondo2" "logo1" "logo2" "logo3" "logo4";
+  }
+  section.grids img {
+    height: 200px;
+    width: 200px;
   }
   section.grids3 {
     grid-template-columns: 1fr;
@@ -241,7 +243,7 @@ main .imagen3 {
 main .imagen4 {
   grid-area: logo4;
 }
-main .grids img {
+main img {
   object-fit: cover;
   justify-content: center;
   margin: 10px;

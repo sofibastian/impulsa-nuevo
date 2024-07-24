@@ -40,13 +40,13 @@
       width: 400px;
       grid-template-columns: 1fr;
       grid-template-rows: 0.5fr 1fr 1fr 1fr;
-      grid-template-areas: "tituloservicios" "tarjeta1" "tarjeta2" "tarjeta3"
+      grid-template-areas: "tituloservicios" "tarjeta1" "tarjeta2" "tarjeta3";
     }
  
     section.grids {
       grid-template-columns: 1fr;
       grid-template-rows: 1fr 1fr 1fr 3fr 3fr 2fr 2fr;
-      grid-template-areas: "tituloprincipal" "titulofondo" "titulofondo2" "logo1" "logo2" "logo3" "logo4"
+      grid-template-areas: "tituloprincipal" "titulofondo" "titulofondo2" "logo1" "logo2" "logo3" "logo4";
  
       img {
         height: 200px;
@@ -57,7 +57,7 @@
     section.grids3 {
       grid-template-columns: 1fr;
       grid-template-rows: 1fr 2fr 2fr;
-      grid-template-areas: "imagencontacto" "whatsapp" "ubicacion"
+      grid-template-areas: "imagencontacto" "whatsapp" "ubicacion";
     }
   }
 
